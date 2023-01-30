@@ -13,9 +13,15 @@
   position: absolute;
 }
 
+.centered{
+  width: 60%;
+  margin: auto;
+}
+
 body{
   font-family: 'Fredoka', sans-serif;
   font-family: 'Roboto', sans-serif;
+  
 }
 button{
   background-color: #004ECC ;
@@ -27,12 +33,21 @@ button{
 /* ------------------------------------------------------------------------ */
 
 /* Header */
+header{
+  background-color: #90A6B9;
+  height: 78%;
+  width: 100%;
+  /* padding-top: 80px; */
+  
+}
 /* Navbar */
 nav{
   position: fixed;
   height: 80px;
   width: 100%;
   font-size: 0.8em;
+  z-index: 2;
+  margin-bottom: 100px;
 }
 
 .nav-bar{
@@ -76,13 +91,56 @@ nav{
 #db-logo{
   width: 100%;
 }
-
-
 /* Navbar */
 
+.header-inner{
+  padding-top: 140px;
+}
 
+.header-inner h1{
+  margin-bottom:50px;
+}
 
+.headeer-inner-row{
+  flex-direction: row;
+}
 
+.header-inner-column-left{
+  width: 40%;
+}
+
+.header-inner-column-left > *{
+  margin-bottom: 30px;
+}
+
+.down-arrow{
+  
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-bottom: 10px;
+  
+}
+.fa-down-long{
+font-size: 3em;
+
+}
+
+.header-inner-proposta-cliente{
+  width: 60%;
+  
+  padding-top: 0px;
+}
+
+#jumbo{
+  width: 115%;
+  height: 115%;
+  z-index: 1;
+  object-fit: contain;
+  
+
+  
+  
+}
 
 
 /* Header */
