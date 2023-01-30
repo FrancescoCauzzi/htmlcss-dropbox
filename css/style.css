@@ -28,6 +28,7 @@ button{
   border: none;
   padding: 5px 10px 5px 10px;
   color: white;
+  cursor: pointer;
 }
 /* General */
 /* ------------------------------------------------------------------------ */
@@ -42,8 +43,7 @@ header{
 }
 /* Navbar */
 nav{
-  position: fixed;
-  height: 80px;
+  position: fixed;  
   width: 100%;
   font-size: 0.8em;
   z-index: 2;
@@ -55,7 +55,7 @@ nav{
   height: 100%;
   flex-direction: row;
   justify-content: space-between;
-  background-color: orange;
+  background-color: white;
   color: black;
   padding: 0 10px 0 10px;
 
@@ -99,6 +99,8 @@ nav{
 
 .header-inner h1{
   margin-bottom:50px;
+  text-align: start;
+  font-size: 3.5em;
 }
 
 .headeer-inner-row{
@@ -122,24 +124,20 @@ nav{
 }
 .fa-down-long{
 font-size: 3em;
+cursor: pointer;
 
 }
 
 .header-inner-proposta-cliente{
-  width: 60%;
-  
+  width: 60%;  
   padding-top: 0px;
 }
 
 #jumbo{
   width: 115%;
   height: 115%;
-  z-index: 1;
-  object-fit: contain;
-  
-
-  
-  
+  z-index: 0;
+  object-fit: contain;  
 }
 
 
