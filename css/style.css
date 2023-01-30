@@ -38,9 +38,14 @@ header{
   background-color: #90A6B9;
   height: 78%;
   width: 100%;
-  /* padding-top: 80px; */
-  
+  margin-bottom: 120px;; 
 }
+
+.header-inner{
+  margin-left: 15%;
+  margin-right: 20%;
+}
+
 /* Navbar */
 nav{
   position: fixed;  
@@ -57,7 +62,7 @@ nav{
   justify-content: space-between;
   background-color: white;
   color: black;
-  padding: 0 10px 0 10px;
+  padding: 10px 10px 10px 10px;
 
 }
 
@@ -122,8 +127,8 @@ nav{
   margin-bottom: 15px;
   
 }
-.fa-down-long{
-font-size: 3em;
+.fa-arrow-down{
+font-size: 2.5em;
 cursor: pointer;
 
 }
@@ -144,8 +149,114 @@ cursor: pointer;
 /* Header */
 /* ------------------------------------------------------------------------ */
 /* Main */
+.container-main h2{
+  margin-bottom: 30px;
+}
+
+/* radio buttons */
+.radio-buttons{
+  margin-bottom: 60px;
+  flex-direction: row;
+  
+}
+
+.radio-button{
+  margin-right: 5px;
+}
+
+.radio-button input{
+  height: 1.5em;
+  width: 1.5em;
+}
 
 
+.label{
+  margin-right: 15px;
+}
+/* radio buttons */
+/* offers */
+.offers{
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.singolo, .team, .azienda{
+  width: 30%;
+  border: 1px solid #A6A6A9;
+  flex-direction: column;
+  
+}
+
+.titolo-offerta{
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;  
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid #A6A6A9;
+  margin-bottom: 30px ;
+}
+
+.titolo span{
+  margin-right: 5px;
+}
+
+h3{
+  margin-bottom: 20px;
+}
+
+.offers-inner{
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-direction: column;
+}
+
+.offers-inner .prezzo{
+  margin-bottom: 15px;
+
+}
+
+.offers-inner .rate{
+  margin-bottom: 50px;
+  color: #525356;
+}
+
+.offers-inner .info{
+  flex-direction: row;
+  margin-bottom: 25px;
+
+}
+
+.offers-inner .info .icona{
+  margin-right: 5px;
+}
+
+.offers-inner .button-offers{
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.offers-inner .button-offers #prova-gratis{  
+  width: 100%;
+}
+
+.offers-inner .acquista-ora{
+  margin-bottom: 40px;
+}
+
+.offers-inner hr{
+  width: 40px;
+  margin-bottom: 50px;
+}
+
+.offers-inner h4{
+  margin-bottom: 35px;
+}
+
+/* offers */
 
 
 
