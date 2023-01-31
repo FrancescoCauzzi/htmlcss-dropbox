@@ -288,6 +288,10 @@ main{
   padding: 10px 0 10px 0;
 }
 
+.uff-vendite .team-uff-vendite .fa-building{
+  margin-right: 4px;
+}
+
 .uff-vendite-inner{
   padding: 50px 40px 30px 40px;
 }
@@ -553,10 +557,12 @@ main{
   display: none;
   padding-right: 20px;
   margin-bottom: 30px;
+  transition: ease-in;
 }
 
 .faq-outside:hover p{
   display: block;
+
 }
 
 
