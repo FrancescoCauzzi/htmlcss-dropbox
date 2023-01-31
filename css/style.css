@@ -346,12 +346,141 @@ main{
 /* entra in contatto con un partner dropbox */
 /* Esegui più operazioni con Dropbox Business  */
 
+.operazioni{
+  flex-wrap: wrap;
+  gap:15px;
+  margin-bottom: 150px ;
+  /* justify-content: space-between; */
+}
+
+.operazioni .ope{
+  width: calc(100% / 3 - 30px);
+}
+
+.operazioni .ope h3{
+  margin-bottom: 20px;
+}
 
 
+.operazioni .ope .ope-img{
+  margin-bottom: 15px; 
+}
 
+.operazioni .ope .ope-img img{
+  object-fit: contain; 
+  width: 100%;
+  height: 100%;  
+}
 
 /* Esegui più operazioni con Dropbox Business  */
 
+/* Teams che utilizzano DropBox */
+.container-main {
+  margin-bottom: 130px;
+}
+/* Teams che utilizzano DropBox */
+
+/* quadratoni, arizona, designit */
+.bigger-squares-container{
+  flex-direction: row;
+}
+
+.bigger-squares-container .big-square-left,.bigger-squares-container .big-square-center, .bigger-squares-container .big-square-right{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100vw / 3);
+  height: calc(100vw / 3);
+}
+
+/* big square left */
+
+.big-square-left .small-square.one{
+  background-color: #82A97C;
+}
+
+.big-square-left .small-square.two{
+  background-color: #4E0622;
+}
+
+.big-square-left .small-square.three{
+  background-color: #0076A5;
+}
+
+.big-square-left .small-square.four{
+  background-color: #CC1616;
+}
+
+/* big square left */
+
+/* big square right */
+
+.big-square-right .small-square.one{
+  background-color: #AA0019;
+}
+
+.big-square-right .small-square.two{
+  background-color: #90A6B9;
+}
+
+.big-square-right .small-square.three{
+  background-color: #0A1D67;
+}
+
+.big-square-right .small-square.four{
+  background-color: #CCAD26;
+}
+
+/* big square right */
+
+
+.small-square{
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-square img{
+  width: 50%;
+  filter: invert(100%)
+}
+
+.bigger-squares-container .big-square-center{
+  
+  padding: 30px 30px 30px 30px;
+  overflow: auto;
+  /* flex-direction: column; */
+}
+
+.big-square-center .center-img {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.big-square-center .center-img img{
+  width: 50%;
+}
+
+.big-square-center hr{
+  width: 40px;
+  color: #A6A6A9;
+  background-color: #A6A6A9;
+  height: 2px;
+  border-width:0;
+}
+
+.big-square-center p, .big-square-center span, .big-square-center hr {
+  margin-bottom: 5px;
+  
+}
+
+
+/* quadratoni, arizona, designit */
+
+/* porta Dropbox business nella tua azienda */
+
+
+/* porta Dropbox business nella tua azienda */
 
 
 /* Main */
