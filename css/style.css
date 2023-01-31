@@ -478,9 +478,79 @@ main{
 /* quadratoni, arizona, designit */
 
 /* porta Dropbox business nella tua azienda */
+.dropbox-business{
+  background-color: #90A6B9;
+  padding: 100px 0 100px 0;
+  margin-bottom: 120px;
+}
 
+.db-business{
+  flex-direction: row;
+}
+
+.db-business .invite{
+  width: 40%;
+  justify-content: flex-start;
+}
+
+.db-business .invite h2{
+  color: #4E0622;  
+}
+
+.db-business .try-it{
+  width: 60%;
+  justify-content: flex-end;
+}
+
+.db-business .try-it button{
+  background-color: #CCCCCC;
+  color: black;
+  height: 35px;
+  padding: 0px 30px 0px 30px;
+}
 
 /* porta Dropbox business nella tua azienda */
+/* - --------------- FAQ -------------------- */
+.faq h2{
+  margin-bottom: 40px;
+}
+
+.faq hr{
+  color: #A6A6A9;
+  background-color: #A6A6A9;
+  height: 2px;
+  border-width:0;
+}
+
+.faq-inner{
+  padding: 35px 0 35px 0;
+}
+
+.faq-inner .question{
+  width: 80%;
+}
+
+
+.faq-inner .faq-arrow-down{
+  width: 20%;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.faq-inner .faq-arrow-down .angle-up{
+  display: none;
+}
+
+.faq-inner:hover .faq-arrow-down .angle-down{
+  display: none;
+}
+
+.faq-inner:hover .faq-arrow-down .angle-up{
+  display: block;
+}
+
+/* - --------------- FAQ -------------------- */
+
 
 
 /* Main */
