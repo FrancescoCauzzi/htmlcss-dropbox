@@ -1,5 +1,5 @@
 
-/* General */
+/* Common */
 
 .flexbox{
   display: flex;
@@ -14,7 +14,7 @@
 }
 
 .centered{
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
@@ -30,7 +30,7 @@ button{
   color: white;
   cursor: pointer;
 }
-/* General */
+/* Common */
 /* ------------------------------------------------------------------------ */
 
 /* Header */
@@ -120,8 +120,7 @@ nav{
   margin-bottom: 30px;
 }
 
-.down-arrow{
-  
+.arrow-down{  
   justify-content: flex-start;
   align-items: baseline;
   margin-bottom: 15px;
@@ -135,7 +134,7 @@ cursor: pointer;
 
 .header-inner-proposta-cliente{
   width: 60%;  
-  padding-top: 0px;
+  margin-bottom: 0px;
 }
 
 #jumbo{
@@ -176,7 +175,6 @@ main{
   width: 1.5em;
 }
 
-
 .label{
   margin-right: 15px;
 }
@@ -186,15 +184,13 @@ main{
   align-items: stretch;
   justify-content: space-between;
   flex-direction: row;
-  margin-bottom: 50px;
-  
+  margin-bottom: 50px;  
 }
 
 .singolo, .team, .azienda{
   width: 31%;
   border: 1px solid #A6A6A9;
-  flex-direction: column;
-  
+  flex-direction: column;  
 }
 
 .titolo-offerta{
@@ -211,14 +207,14 @@ main{
   margin-right: 5px;
 }
 
-h3{
-  margin-bottom: 20px;
-}
-
 .offers-inner{
   padding-left: 15px;
   padding-right: 15px;
   flex-direction: column;
+}
+
+.offers-inner h3{
+  margin-bottom: 20px;
 }
 
 .offers-inner .prezzo{
@@ -234,11 +230,11 @@ h3{
 .offers-inner .info{
   flex-direction: row;
   margin-bottom: 25px;
-
 }
 
 .offers-inner .info .icona{
   margin-right: 5px;
+  margin-left: -5px;
 }
 
 .offers-inner .button-offers{
@@ -258,6 +254,11 @@ h3{
 .offers-inner hr{
   width: 40px;
   margin-bottom: 40px;
+  color: #A6A6A9;
+  background-color: #A6A6A9;
+  height: 2px;
+  border-width:0;
+  
 }
 
 .offers-inner h4{
@@ -266,6 +267,7 @@ h3{
 
 .punto-saliente{
   margin-bottom: 25px;
+  /* flex-direction: row; */
 }
 
 .punto-saliente .icona-punto-saliente{
@@ -312,7 +314,7 @@ h3{
 /* entra in contatto con un partner dropbox */
 .entra-in-contatto{
   flex-direction: row;
-  margin-bottom: 150px;
+  margin-bottom: 130px;
 }
 
 .entra-in-contatto .contatto-image{
@@ -335,6 +337,7 @@ h3{
   border: 1px solid black;
   background-color: rgba(0,0,0,0);
   color: black;
+  white-space: nowrap;
 }
 .contatto-partner > p{
   margin-bottom: 45px;
