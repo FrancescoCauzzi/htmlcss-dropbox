@@ -541,13 +541,25 @@ main{
   display: none;
 }
 
-.faq-inner:hover .faq-arrow-down .angle-down{
+.faq-outside:hover .faq-inner .faq-arrow-down .angle-down{
   display: none;
 }
 
-.faq-inner:hover .faq-arrow-down .angle-up{
+.faq-outside:hover .faq-inner .faq-arrow-down .angle-up{
   display: block;
 }
+
+.faq .faq-outside p{
+  display: none;
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+
+.faq-outside:hover p{
+  display: block;
+}
+
+
 
 /* - --------------- FAQ -------------------- */
 
